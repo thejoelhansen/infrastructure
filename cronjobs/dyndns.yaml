@@ -3,8 +3,7 @@ kind: CronJob
 metadata:
   name: dyndns
 spec:
-#  schedule: "*/5 * * * *" # every 5 minutes
-  schedule: "* * * * *" # every 10 seconds - debug
+  schedule: "*/5 * * * *" # every 5 minutes
   jobTemplate:
     spec:
       template:
