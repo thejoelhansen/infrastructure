@@ -1,0 +1,4 @@
+project_id = "my-gcp-prod"
+region     = "us-west1"
+zone       = "us-west1-a"
+env        = "prod"
