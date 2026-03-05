@@ -2,3 +2,8 @@
 .terraform/*
 dev.tfvars
 prod.tfvars
+
+homelab-service-account.json
+
+dev.plan
+prod.plan

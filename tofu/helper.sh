@@ -1,5 +1,11 @@
 #! /bin/bash
 
+# Functions
+
+function tofu_all() {
+  cat dev.tfvars main.tf outputs.tf provider.tf tofu.tf variables.tf modules/compute/* modules/network/*
+}
+
 # get gc project name & id
 gc_project=$(gcloud config get-value project)
 gc_project_id=$(gcloud projects describe $(gcloud config get-value project) --format="value(projectNumber)")
